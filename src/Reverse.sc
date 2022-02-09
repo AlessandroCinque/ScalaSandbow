@@ -38,6 +38,10 @@ def reverse(l: List[String]): List[String] = {
     _reverse(Nil, l)
 }
 
+
+//just for me to practice...
+def reverse1
+
 val porco2 = reverse(toReverse)
 println(porco2)
 
