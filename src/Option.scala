@@ -18,7 +18,7 @@ object Option
         x match
         {
             //case Some(x) => println(x)
-            case x > 0 => println("positive")
+            case Some(x) => println("positive")
             //case x < 0 => println("negative")
             case None => println("Nooope")
         }
